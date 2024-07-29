@@ -2,23 +2,8 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "accounts/wsgi.py"
+      "dest": "b/wsgi.py"
     }
   ]
 }
-{
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "articles/wsgi.py"
-    }
-  ]
-}
-{
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "pages/wsgi.py"
-    }
-  ]
-}
+
