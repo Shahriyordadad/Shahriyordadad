@@ -6,3 +6,19 @@
     }
   ]
 }
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "articles/wsgi.py"
+    }
+  ]
+}
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "pages/wsgi.py"
+    }
+  ]
+}
