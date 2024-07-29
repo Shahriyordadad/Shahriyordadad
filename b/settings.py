@@ -80,7 +80,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'b.wsgi.application'
 
-
+os.environ["DJANGO_SETTINGS_MODULE"] = "b.settings" in your wsgi.py.
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
