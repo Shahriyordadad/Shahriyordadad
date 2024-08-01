@@ -1,1 +1,8 @@
-
+{
+  "redirects": [
+    {
+      "source": "/view-source",
+      "destination": "https://github.com/vercel/vercel"
+    }
+  ]
+}
